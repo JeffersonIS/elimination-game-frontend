@@ -16,7 +16,6 @@ function Games(props) {
   const finishedGames = allGamesData.filter(filterFinishedGames);
 
   function deleteItem(gameNumber){
-    console.log(window.prompt('hello'));
     if(window.confirm('Deleting a game cannot be undone. Do you want to proceed?')){
       //delete game and all active players associated with it
       deleteActivePlayers(gameNumber);
