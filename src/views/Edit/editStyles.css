@@ -1,0 +1,42 @@
+.btn-add-new{
+    float: right;
+}
+
+.nav-manage a{
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.053);
+    background-color: rgba(0, 0, 0, 0.079);
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.148);
+    text-decoration: none;
+    font-size: 120%;
+    font-weight: 300;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+.nav-manage a:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 0.097);
+    color: black;
+}
+
+.nav-container{
+    display: grid;
+    justify-content: center;
+}
+
+.table-container{
+    display: grid;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .nav-manage a{
+        font-size: 115%;
+        font-weight: 300;
+        padding-right: .8em;
+        padding-left: .8em;
+    }
+  }

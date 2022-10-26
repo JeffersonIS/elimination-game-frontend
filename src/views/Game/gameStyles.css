@@ -1,0 +1,62 @@
+.align-right{
+    text-align: right;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.btn-select{
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+}
+
+.btn-select:hover{
+    background-color: #c5e0dc;
+}
+
+.btn-select-active{
+    background-color: #198754;
+}
+
+.btn-select-active:hover{
+    background-color: #198754
+}
+
+.row-hover:hover{
+    cursor: pointer;
+}
+
+.row-winner{
+    box-shadow: 1px 1px 10px 0px rgba(0, 128, 0, 0.685);
+}
+
+.table-container{
+    display: grid;
+    justify-content: center;
+}
+
+.table-width{
+    width: 60vw;
+}
+
+.table-width-big{
+    width: 75vw;
+}
+
+@media only screen and (max-width: 900px) {
+    .table-width{
+        width: 90vw;
+    }
+
+    .table-width-big{
+        width: 90vw;
+    }
+  }

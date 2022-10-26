@@ -1,0 +1,31 @@
+.activeplayer-container{
+    display: grid;
+    justify-content: center;
+}
+
+.activeplayer-card{
+    border: 1px solid rgb(239, 239, 239);
+    padding: 1.25em;
+    box-shadow: 1px 1px 10px 1px rgb(229, 182, 158);
+    border-radius: 5px;
+    margin: 1em;
+    margin-top: 0px;
+}
+
+.card-text{
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.breadcrumb{
+    color: #676060;
+    margin-left: 1em;
+}
+
+.breadcrumb:hover{
+    cursor: pointer;
+}
