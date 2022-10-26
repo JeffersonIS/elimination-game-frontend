@@ -74,7 +74,7 @@ function Games(props) {
                   return(
                     <tr key={game._id} className='row-hover'>
                       <td onClick={() => {navToGame(game)}}>{game.name}</td>
-                      <td>{game.numPlayers}</td>
+                      <td onClick={() => {navToGame(game)}}>{game.numPlayers}</td>
                       <td style={{color: color}} onClick={() => {navToGame(game)}}>
                         {status}
                       </td>
